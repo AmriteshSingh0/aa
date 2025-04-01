@@ -33,7 +33,7 @@ export const ExpenseTracker = () => {
     }
 
     const signUserOut = async() => {
-       try{
+       try{ 
            await signOut(auth);
            localStorage.clear();
            navigate("/");
